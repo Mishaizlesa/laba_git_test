@@ -30,17 +30,6 @@ double my_sin(double x,double eps,int &n){
     }
     return res;
 }
-double my_cos(double x,double eps,int &n){
-    n=1;
-    double res=0;
-    double prev=1;
-    while (abs(prev)>eps){
-        res+=prev;
-        prev *=-1.0*x*x/((2*n-1)*(2*n));
-        n++;
-    }
-    return res;
-}
 double my_arcsin(double x,double eps,int &n){
     n=1;
     double prev=x;
@@ -53,6 +42,9 @@ double my_arcsin(double x,double eps,int &n){
     return res;
 }
 double my_arccos(double x,double eps,int &n){
-    return pi/2-my_arcsin(x, eps,n);
+    return pi*0.5-my_arcsin(x, eps,n);
+}
+double my_cos(double x,double eps,int &n){
+    return my_sin(pi*0.5-x, eps, n);
 }
 
