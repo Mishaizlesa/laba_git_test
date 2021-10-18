@@ -65,8 +65,8 @@
 			children = (
 				BF17A17E271DA75500676236 /* main.cpp */,
 				BF17A185271DA77800676236 /* mymath.cpp */,
-				BF17A18B271DAF9C00676236 /* mymath.h */,
 				BF17A18C271DAFBB00676236 /* table.cpp */,
+				BF17A18B271DAF9C00676236 /* mymath.h */,
 				BF17A18E271DB2C400676236 /* p_table.h */,
 			);
 			path = laba_git_test;

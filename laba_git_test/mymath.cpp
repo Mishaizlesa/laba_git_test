@@ -21,6 +21,7 @@ double my_exp(double x, double eps,int &n) {
 }
 double my_sin(double x,double eps,int &n){
     n=1;
+    x-=double(int(x/(pi*2)))*pi*2;
     double res=0;
     double prev=x;
     while (abs(prev)>eps) {
