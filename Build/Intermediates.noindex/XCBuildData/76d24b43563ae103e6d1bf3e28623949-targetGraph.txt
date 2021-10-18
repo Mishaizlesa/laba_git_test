@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+laba_git_test in laba_git_test, no dependencies
