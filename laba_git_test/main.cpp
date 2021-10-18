@@ -5,11 +5,13 @@ int main() {
     p values_m[10000];
     p *values=values_m;
     int choose=0;
-    char ans;
+    char ans='1';
     int l,n=0;
     double x,x1,eps;
     x=-10000;
-    printf("do you prefer table output y/n? ");scanf("%c",&ans);
+    while(ans!='y' && ans!='n'){
+        printf("do you prefer table output y/n? ");scanf("%c",&ans);
+    }
     if (ans=='y'){
         while(!(choose>0 && choose<6)){
             printf("select the function\n1 exp(x)\n2 cos(x)\n3 sin(x)\n4 arcsin(x)\n5 arccos(x)\n");
