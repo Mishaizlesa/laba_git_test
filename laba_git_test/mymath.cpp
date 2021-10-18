@@ -35,7 +35,7 @@ double my_arcsin(double x,double eps,int &n){
     n=1;
     double prev=x;
     double res=prev;
-    while (prev>eps) {
+    while (abs(prev)>eps) {
         prev*=((x*x)*(2*n-1)*(2*n-1))/((2*n)*(2*n+1));
         res+=prev;
         n++;
