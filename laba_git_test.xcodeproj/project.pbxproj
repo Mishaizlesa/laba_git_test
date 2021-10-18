@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF17A17F271DA75500676236 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF17A17E271DA75500676236 /* main.cpp */; };
 		BF17A187271DA77800676236 /* mymath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF17A185271DA77800676236 /* mymath.cpp */; };
+		BF17A18D271DAFBB00676236 /* table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF17A18C271DAFBB00676236 /* table.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +28,9 @@
 		BF17A17B271DA75500676236 /* laba_git_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = laba_git_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF17A17E271DA75500676236 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF17A185271DA77800676236 /* mymath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mymath.cpp; sourceTree = "<group>"; };
-		BF17A188271DA82000676236 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BF17A18B271DAF9C00676236 /* mymath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mymath.h; sourceTree = "<group>"; };
+		BF17A18C271DAFBB00676236 /* table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = table.cpp; sourceTree = "<group>"; };
+		BF17A18E271DB2C400676236 /* p_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_table.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +65,9 @@
 			children = (
 				BF17A17E271DA75500676236 /* main.cpp */,
 				BF17A185271DA77800676236 /* mymath.cpp */,
-				BF17A188271DA82000676236 /* Header.h */,
+				BF17A18B271DAF9C00676236 /* mymath.h */,
+				BF17A18C271DAFBB00676236 /* table.cpp */,
+				BF17A18E271DB2C400676236 /* p_table.h */,
 			);
 			path = laba_git_test;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				BF17A17F271DA75500676236 /* main.cpp in Sources */,
 				BF17A187271DA77800676236 /* mymath.cpp in Sources */,
+				BF17A18D271DAFBB00676236 /* table.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
