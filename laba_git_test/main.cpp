@@ -11,6 +11,8 @@ int main() {
     x=-10000;
     while(ans!='y' && ans!='n'){
         printf("do you prefer table output y/n? ");scanf("%c",&ans);
+        int c;
+        while ((c = getchar()) != '\n' && c != EOF) { }
         printf("\n");
     }
     if (ans=='y'){
